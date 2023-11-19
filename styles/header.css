@@ -1,0 +1,15 @@
+.header_logo {
+    height: 1.3125rem;
+    width: 8.9375rem;
+    flex: 0;
+}
+
+.hamburger {
+    width: 1.75rem;
+    height: 0.6875rem;
+    flex:1;
+}
+.header_space{
+    display: flex;
+    justify-content: space-between;
+}

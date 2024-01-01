@@ -1,3 +1,15 @@
+:root {
+  --dark-blue: rgb(45, 49, 77);
+  --lime-green: rgb(49, 211, 92);
+  --bright-cyan: rgb(43, 183, 218);
+  --grayish-blue: rgb(150,152,166);
+  --light-grayish-blue: rgb(243,244,246);
+  --very-light-gray: rgb(250,250,250);
+}
+body {
+  font-family: "Public Sans", sans-serif;
+}
+
 .container {
-    margin: 1.5625rem;
+  margin: 1.5625rem;
 }

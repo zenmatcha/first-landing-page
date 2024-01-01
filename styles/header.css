@@ -13,3 +13,23 @@
     display: flex;
     justify-content: space-between;
 }
+
+.hamburger_menu_bg{
+    background-image: linear-gradient (var(--dark-blue), var(--very-light-gray)) ;
+}
+
+.hamburger_menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3px;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5625rem;
+        a {
+    color: var(--dark-blue);
+    text-decoration: none;
+    margin:0;
+    padding-bottom:1.5rem;
+    }
+
+}

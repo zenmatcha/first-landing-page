@@ -9,10 +9,10 @@
     height: 0.6875rem;
     flex:1;
 }
-.header_space{
-    display: flex;
+/*.header_space{
+    display: flex; 
     justify-content: space-between;
-}
+}moved it to general-styles flex class*/
 
 .hamburger_menu_bg{
     background-image: linear-gradient (var(--dark-blue), var(--very-light-gray)) ;

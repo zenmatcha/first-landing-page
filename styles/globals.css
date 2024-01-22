@@ -29,7 +29,7 @@ a, a:visited, a:hover {
   color: var(--grayish-blue);
 }
 
-//Flexbox styles // /*added all these helper classes per the video */
+/* Flexbox styles  - added all these helper classes per the video */
 .flex {
   display:flex;
 }
@@ -46,7 +46,6 @@ a, a:visited, a:hover {
   align-items: center;
 }
 
-
-.container {
+/* .container {
   margin: 1.5625rem;
-}
+} */

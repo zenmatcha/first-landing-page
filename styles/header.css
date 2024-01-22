@@ -1,23 +1,26 @@
-#header-logo {
-    flex:0;
+header nav {
+    padding: 24px;
 }
 
-.header_logo {
+.header__logo {
     height: 1.3125rem;
     width: 8.9375rem;
    }
 
-.header_menu{
-    flex:1;
+.header__logo img {
+
+
+}
+.header__menu{ /*Mobile menu*/
     > span {
         display: block;
-        width: 26px;
-        height: 2px;
+        width: 1.625rem;
+        height: 0.125rem;
         background-color: var(--dark-blue);
 
 
         &:not(:last-child){
-            margin-bottom:3px ;
+            margin-bottom:0.1875rem;
         }
     }
 
@@ -35,11 +38,11 @@
     justify-content: space-between;
 } moved it to general-styles flex class*/
 
-.hamburger_menu_bg{
+/* .hamburger_menu_bg{
     background-image: linear-gradient (var(--dark-blue), var(--very-light-gray)) ;
-}
+} */
 
-.hamburger_menu {
+/* .hamburger_menu {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,6 +53,6 @@
     color: var(--dark-blue);
     margin:0;
     padding-bottom:1.5rem;
-    }
+    } */
 
 }

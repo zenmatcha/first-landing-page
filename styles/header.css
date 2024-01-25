@@ -30,9 +30,14 @@ header nav {
     a {
        text-decoration: inherit; 
        font-size: var(--font-small);
+       color: var(--grayish-blue);
     }
 }
 
+a.header__cta {
+    font-size: var(--font-small);
+    color: white;
+}
 /*.hamburger {
     width: 1.75rem;
     height: 0.6875rem;

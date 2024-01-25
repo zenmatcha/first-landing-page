@@ -1,0 +1,22 @@
+/* 
+- Mobile: 375px = 23.4375rem;
+- Desktop: 1440px = 90rem 
+
+:root {
+    --mobile-min-width: 23.4375em;
+    --mobile-max-width: 39.9375em;
+    --tablet-min-width: 40em;
+    --tablet-max-width:63.9375em;
+    --desktop-min-width: 64em;
+    --desktop-max-width: 90em;
+}
+Note: Variables do not work inside media queries and container queries.*/
+
+@media(max-width: 64em) {
+    .header__links {
+        display: none;
+    }
+    .header__cta {
+        display: none;
+    }
+}

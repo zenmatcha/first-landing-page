@@ -64,3 +64,12 @@ button, .button{
   border: none;
   cursor:pointer;
 }
+
+/* Visibility */
+.hide-for-mobile {
+  /*hide for mobile and tablets*/
+}
+
+.hide-for-desktop {
+  /*hide for desktop viewport widths*/
+}

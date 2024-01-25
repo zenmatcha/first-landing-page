@@ -26,6 +26,12 @@ header nav {
 
 }
 
+.header__links {
+    a {
+       text-decoration: inherit; 
+       font-size: var(--font-small);
+    }
+}
 
 /*.hamburger {
     width: 1.75rem;

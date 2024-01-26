@@ -2,12 +2,11 @@
   --dark-blue: rgb(45, 49, 77);
   --lime-green: rgb(49, 211, 92);
   --bright-cyan: rgb(43, 183, 218);
-  --grayish-blue: rgb(150,152,166);
-  --light-grayish-blue: rgb(243,244,246);
-  --very-light-gray: rgb(250,250,250);
+  --grayish-blue: rgb(150, 152, 166);
+  --light-grayish-blue: rgb(243, 244, 246);
+  --very-light-gray: rgb(250, 250, 250);
   --font-small: 0.875rem; /*14px*/
   --font-med: 1.125rem; /*18px*/
-
 }
 
 html {
@@ -15,13 +14,15 @@ html {
   box-sizing: border-box; /* This property makes the size of elements include padding in the final width.*/
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit; /* This makes all elements inherit this property. * - is a CSS selector that select ALL elements.*/
 }
 
 body {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   font-family: "Public Sans", sans-serif;
   line-height: 1.3; /* to add some spacing between lines */
   font-size: var(--font-med);
@@ -29,13 +30,15 @@ body {
   color: var(--grayish-blue);
 }
 
-a, a:visited, a:hover {
-  text-decoration: none; 
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
 }
 
 /* Flexbox styles  - added all these helper classes per the video */
 .flex {
-  display:flex;
+  display: flex;
 }
 
 .flex-jc-sb {
@@ -53,23 +56,30 @@ a, a:visited, a:hover {
 /* .container {
   margin: 1.5625rem;
 } */
-button, .button{
+button,
+.button {
   font-family: inherit;
   color: white;
   font-size: var(--font-small);
   font-weight: 400;
-  padding:1rem 2.125rem;
+  padding: 1rem 2.125rem;
   border-radius: 50px;
   background: linear-gradient(90deg, var(--lime-green), var(--bright-cyan));
   border: none;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 /* Visibility */
 .hide-for-mobile {
   /*hide for mobile and tablets*/
+  @media (max-width: 63.9375em) {
+    display: none;
+  }
 }
 
 .hide-for-desktop {
   /*hide for desktop viewport widths*/
+  @media (min-width: 64em) {
+    display: none;
+  }
 }

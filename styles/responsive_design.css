@@ -11,12 +11,3 @@
     --desktop-max-width: 90em;
 }
 Note: Variables do not work inside media queries and container queries.*/
-
-@media(max-width: 64em) {
-    .header__links {
-        display: none;
-    }
-    .header__cta {
-        display: none;
-    }
-}

@@ -24,16 +24,17 @@ header nav {
 }
 
 .open {
-  &:first-child {
+  .header__menu{
+  >span:first-child {
     transform: rotate(45deg);
   }
-  &:nth-child(2) {
+  >span:nth-child(2) {
     opacity: 0;
   }
-  &:last-child {
+  >span:last-child {
     transform: rotate(-45deg);
   }
-}
+}}
 
 .header__links {
   a {
@@ -60,4 +61,14 @@ a.header__cta {
 
 a.header__cta:hover {
   opacity: 0.75;
+}
+
+.overlay {
+  /*The idea is to make it on the same level as the nav element, and then add a z index to it...*/
+  position: fixed;
+  top:3.75rem;
+  bottom: 0px;
+  right: 0px;
+  left:0px;
+  background-image: linear-gradient(rgb(45, 49, 77), transparent);
 }
